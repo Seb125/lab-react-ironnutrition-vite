@@ -22,11 +22,11 @@ function AddFoodForm ({addFood}) {
         
    
     }
-
+    //test
     
     return (
 
-        <div>
+        <div> 
             <form onSubmit={handleSubmit}>
                 <label> Name</label>
                 <input type="text" name="name" value={name} onChange={handleNameInput}/>
